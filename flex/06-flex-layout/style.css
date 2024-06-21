@@ -14,13 +14,71 @@ img {
 button {
   font-family: Roboto, sans-serif;
   border: none;
-  border-radius: 8px;
-  background: #eee;
-}
+  border-radius: 4px;
+  background: #b6b6b6;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+   }
 
 input {
-  border: 1px solid #ddd;
+  border: 1px solid #b6b5b5;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+   gap: 16px;
+   padding: 0px;
+}
+
+.layout-container{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+  height: 100%;
+  }
+
+.header,
+.footer {
+  padding: 16px;
+}
+
+.content {
+  margin: auto;
+  
+}
+
+.header-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input,
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  margin-top: 16px;
+  gap: 16px;
+}
+
+.footer {
+  background-color: #c0c0c0;
+}
+
+a {
+  text-decoration: none;
 }
